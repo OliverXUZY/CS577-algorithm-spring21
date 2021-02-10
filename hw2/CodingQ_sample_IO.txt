@@ -1,0 +1,222 @@
+A sample input for the week 2 coding question (corresponding to the graphs shown on the next page) is the
+following:
+3
+3
+A B
+B A
+C
+9
+1 2 9
+2 3 5 6
+3 2 7
+4 6
+5 2
+6 2 4
+7 3
+8 9
+9 1 8
+31
+A B C
+B A D E
+C A F G
+D B H I
+E B J K
+F C L M
+G C N O
+H D P Q
+I D R S
+J E T U
+K E V W
+L F X Y
+M F Z AA
+N G AB AC
+O G AD AE
+P H
+Q H
+R I
+S I
+T J
+U J
+V K
+W K
+X L
+Y L
+Z M
+AA M
+AB N
+AC N
+AD O
+AE O
+The correct output to the sample input would be:
+A B C
+1 2 3 7 5 6 4 9 8
+A B D H P Q I R S E J T U K V W C F L X Y M Z AA G N AB AC O AD AE
+
+The sample input has three instances. The first instance corresponds to the graph below on the left. The second
+instance corresponds to the graph below on the right. The third instance is the graph below those.
+3
+
+2
+
+B
+
+4
+1
+5
+
+A
+9
+6
+8
+
+C
+
+7
+
+A
+
+B
+
+C
+
+D
+
+E
+
+H
+
+P
+
+I
+
+Q
+
+R
+
+F
+
+J
+
+S
+
+T
+
+K
+
+U
+
+V
+
+N
+
+L
+
+W
+
+X
+
+Page 2
+
+M
+
+Y
+
+Z
+
+J
+
+AA
+
+AB
+
+O
+
+AC
+
+AD
+
+AE
+
+
+1
+10
+DVL MQK MZ P PAR VE XPL XQKG
+MQK DVL U VE
+MZ DVL P PAR SGVC VE
+P DVL MZ PAR U VE XPL XQKG
+PAR DVL MZ P SGVC VE XPL XQKG
+SGVC MZ PAR U XPL XQKG
+U MQK P SGVC VE XQKG
+VE DVL MQK MZ P PAR U XPL XQKG
+XPL DVL P PAR SGVC VE XQKG
+XQKG DVL P PAR SGVC U VE XPL
+
+
+
+
+
+
+
+
+
+
+
+
+4
+3
+A B
+B A
+C
+9
+1 2 9
+2 3 5 6
+3 2 7
+4 6
+5 2
+6 2 4
+7 3
+8 9
+9 1 8
+31
+A B C
+B A D E
+C A F G
+D B H I
+E B J K
+F C L M
+G C N O
+H D P Q
+I D R S
+J E T U
+K E V W
+L F X Y
+M F Z AA
+N G AB AC
+O G AD AE
+P H
+Q H
+R I
+S I
+T J
+U J
+V K
+W K
+X L
+Y L
+Z M
+AA M
+AB N
+AC N
+AD O
+AE O
+10
+DVL MQK MZ P PAR VE XPL XQKG
+MQK DVL U VE
+MZ DVL P PAR SGVC VE
+P DVL MZ PAR U VE XPL XQKG
+PAR DVL MZ P SGVC VE XPL XQKG
+SGVC MZ PAR U XPL XQKG
+U MQK P SGVC VE XQKG
+VE DVL MQK MZ P PAR U XPL XQKG
+XPL DVL P PAR SGVC VE XQKG
+XQKG DVL P PAR SGVC U VE XPL
