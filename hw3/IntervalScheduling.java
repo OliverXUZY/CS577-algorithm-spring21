@@ -43,7 +43,7 @@ public class IntervalScheduling {
     int idx = 1;  // normal idx iterate over array
     int countInIdx = 0; // the actual index count in schedule
     while(idx < Time.length) {
-      if(Time[countInIdx][1] < Time[idx][0]) {
+      if(Time[countInIdx][1] <= Time[idx][0]) {
         count++;
         countInIdx = idx;
       }
