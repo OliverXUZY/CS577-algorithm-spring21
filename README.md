@@ -7,7 +7,7 @@
   want to find something.
 - I wrote `FurthurstInFuture` at first but there are too many loops in it, after asking TA I changed ideas. Previously, I loop in cache everytime I got new request, then 
  I loop in the request sequence to see how many steps more for each cache (and evict the furthest one). Now I realized I can store steps(index) in an long array (same length as request sequence).
- My second version is storing the index at first, then I also use binary heap to store the steps(index) in cache which makes extracting max more efficient than loop.
+ My second version `FartherInFuture` is storing the index at first, then I also use binary heap to store the steps(index) in cache which makes extracting max more efficient than loop. I only cost 50 secs to ran whole test.
  - HashTable in Java is equivalent to dictionary in python. That is really helpful. Priority queue (binary heap) is really useful in getting min/max (which I will not
    learn in python since python has more off-the-shelf function to implement it).
  - Improving algorithm efficiency is not about just using fancy parallel functions (which I thought as before), is about really caring about the time/space complexity everytime
