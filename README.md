@@ -4,4 +4,5 @@ This course is the core CS undergrad course about algorithm, topics include (Upd
 - Graphs and related algothm. BFS/DFS(O(m+n)).
 - Greedy algorithms. ALways stays ahead and exchange argument techniques. Dijkstra's method.
 - More greedy. Minimun spanning tree. Kruskal's algorithm; Prim's algorithm; Reverse-Kruskal's algorithm. Paging problem.
-- Divide and Conquer.
+- Divide and Conquer. Recursion.
+- Dynamic programming.
