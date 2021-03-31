@@ -15,7 +15,7 @@ class Node:
         find path from current Node to final destination, use DFS
         @Input: destination node
         @Output: a list containing node names, reversed path from destination to current node
-        retutn the reversed path to save some complexity(prepend list is O(N), 
+        return the reversed path to save some complexity(prepend list is O(N), 
         append list is O(1))
         '''
         if self.name in Node.visited: # run into a circle, return empty path
@@ -44,6 +44,7 @@ class graph:
     def addNode(self, name):
         self.nodes[name] = Node(name)
 
+    # add edge for the first time
     # cumulative edge capacity if we have add (u,v,w) where e,v exist
     def add_edge(self, u, v, w): # direct edge from u to v with cpacity w
         '''
