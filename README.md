@@ -1,4 +1,7 @@
 # CS577-algorithm
+
+Please see this [link](https://oliverxuzy.github.io/cs577) to view coding question directly.
+
 This course is the core CS undergrad course about algorithm, topics include (Update weekly):
 - Basic background from discrete math.
 - Graphs and related algothm. BFS/DFS(O(m+n)).
